@@ -14,8 +14,3 @@ class Config {
     const ERROR_CONTROLLER = 'ErrorController';
     const DEFAULT_ACTION = 'index';
 }
-
-:pencil: Add original inspiration files for reference
-
-These files will be used solely for reference and inspiration while developing the system. They will not be included in the final project.
-
