@@ -3,7 +3,7 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = '/Projeto005_Devsbook/public';
+    const BASE_DIR = '/Cursos/P7Code/Projeto005_Devsbook/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
