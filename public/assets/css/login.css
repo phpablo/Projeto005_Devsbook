@@ -86,9 +86,9 @@ form a {
 
 .flash {
     background-color: red;
-    border: solid 2px solid;
-    border-radius: 5%;
+    border: solid 10px solid;
+    border-radius: 10px;
     color: white;
-    padding: 5px;
-    margin-bottom: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
 }
