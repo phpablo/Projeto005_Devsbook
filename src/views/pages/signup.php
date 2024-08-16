@@ -26,7 +26,7 @@
       <input placeholder="Digite seu nome completo" class="input" type="text" name="name" required />
       <input placeholder="Digite seu email" class="input" type="email" name="email" />
       <input placeholder="Digite sua senha" class="input" type="password" name="password" />
-      <input placeholder="Digite sua data de nascimento" class="input" type="text" id="birthdate" />
+      <input placeholder="Digite sua data de nascimento" class="input" type="text" id="birthdate" name="birthdate" />
 
       <input class="button" type="submit" value="Fazer cadastro" />
 
