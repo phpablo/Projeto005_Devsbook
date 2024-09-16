@@ -7,17 +7,15 @@
     <div class="row">
       <div class="column pr-5">
 
-        <?= $render('box-editor'); ?>
-
+        <?= $render('feed-editor', ['user' => $loggedUser]); ?>
         <?= $render('feed-item'); ?>
-
       </div>
+
       <div class="column side pl-5">
         <div class="box banners">
           <div class="box-header">
             <div class="box-header-text">Patrocinios</div>
             <div class="box-header-buttons">
-
             </div>
           </div>
           <div class="box-body">
