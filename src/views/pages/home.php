@@ -1,4 +1,3 @@
-<!-- Renderiza o Header -->
 <?= $render('header', ['loggedUser' => $loggedUser]); ?>
 <section class="container main">
   <?= $render('sidebar'); ?>
