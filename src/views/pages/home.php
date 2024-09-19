@@ -5,7 +5,7 @@
 
     <div class="row">
       <div class="column pr-5">
-
+        <!-- rende feed  -->
         <?= $render('feed-editor', ['user' => $loggedUser]); ?>
         <?= $render('feed-item'); ?>
       </div>
