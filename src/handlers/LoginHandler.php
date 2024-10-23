@@ -19,7 +19,6 @@ class LoginHandler {
         $loggedUser->id = $data['id'];
         $loggedUser->name = $data['name'];
         $loggedUser->avatar = $data['avatar'];
-
         return $loggedUser;
       }
     }
