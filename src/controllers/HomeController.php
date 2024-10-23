@@ -3,7 +3,11 @@
 namespace src\controllers;
 
 use \core\Controller;
+<<<<<<< HEAD
 use \src\handlers\UserHandler;
+=======
+use \src\handlers\LoginHandler;
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
 use src\handlers\PostHandler;
 
 class HomeController extends Controller {

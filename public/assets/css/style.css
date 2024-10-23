@@ -394,17 +394,28 @@ header .head-side {
 
 .class-pagination a {
     display: inline-block;
+<<<<<<< HEAD
     background-color: #fff;
     padding: 7px 10px;
     margin: 5px;
     border: 2px solid #fff;
     border-radius: 10px;
+=======
+    background-color: #ccc;
+    padding: 7px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
     text-decoration: none;
     color: black;
 }
 
 .class-pagination a.active {
+<<<<<<< HEAD
     background-color: #ccc;
+=======
+    background-color: #fff;
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
 }
 .class-pagination a:hover {
     background-color: #ddd;

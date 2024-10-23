@@ -24,6 +24,7 @@ class PostHandler {
     }
   }
 
+<<<<<<< HEAD
   public function _postListToObject($postsList, $loggedUserId) {
     $posts = [];
 
@@ -84,6 +85,8 @@ class PostHandler {
     ];
   }
 
+=======
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
   public static function getHomeFeed($idUser, $page) {
     $perPage = 2;
 
@@ -110,7 +113,11 @@ class PostHandler {
     $pageCount = ceil($total / $perPage);
 
     // 3. transformar os resultados em objetos de Models
+<<<<<<< HEAD
     $posts = self::_postListToObject($postsList, $idUser);
+=======
+    $posts = [];
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
 
     foreach ($postsList as $postItem) {
       $newPost = new Post();
@@ -134,7 +141,10 @@ class PostHandler {
       }
 
       // 4.1 TODO - Preencher informações do LIKE
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
       // 4.1 TODO - Preencher informações de COMMENTS
       $posts[] = $newPost;
     }
@@ -146,6 +156,7 @@ class PostHandler {
       'currentPage' => $page
     ];
   }
+<<<<<<< HEAD
 
 
   public static function getPhotosFrom($idUser) {
@@ -169,4 +180,6 @@ class PostHandler {
 
     return $photos;
   }
+=======
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
 }

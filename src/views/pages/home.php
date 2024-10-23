@@ -1,8 +1,12 @@
 <?= $render('header', ['loggedUser' => $loggedUser]); ?>
 <section class="container main">
 
+<<<<<<< HEAD
   <?= $render('sidebar', ['activeMenu' => 'home']); ?>
 
+=======
+  <?= $render('sidebar'); ?>
+>>>>>>> fc217f6 (:sparkles: Add and configure feed functionality)
 
   <section class="feed mt-10">
 
