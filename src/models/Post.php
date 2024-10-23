@@ -10,4 +10,8 @@ class Post extends Model {
   public $type;
   public $created_at;
   public $body;
+  public $user;
+  public $mine;
+  public $countLikes;
+  public $comments;
 }
