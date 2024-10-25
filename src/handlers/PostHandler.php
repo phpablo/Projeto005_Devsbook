@@ -74,6 +74,7 @@ class PostHandler {
       }
 
       // 4.1 TODO - Preencher informações do LIKE
+
       // 4.1 TODO - Preencher informações de COMMENTS
       $posts[] = $newPost;
     }

@@ -393,16 +393,17 @@ header .head-side {
 
 .class-pagination a {
     display: inline-block;
-    background-color: #ccc;
+    background-color: #fff;
     padding: 7px 10px;
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #fff;
+    border-radius: 10px;
     text-decoration: none;
     color: black;
 }
 
 .class-pagination a.active {
-    background-color: #fff;
+    background-color: #ccc;
 }
 .class-pagination a:hover {
     background-color: #ddd;
