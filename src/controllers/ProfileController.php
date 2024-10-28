@@ -20,7 +20,12 @@ class ProfileController extends Controller {
   }
 
   public function index($atts = []) {
+    $id = $this->loggedUser->id;
 
+    if (!empty($atts['id'])) {
+      $id = $atts['id'];
+    }
+    echo "ID: " . $id;
     $this->render('profile', [
       'loggedUser' => $this->loggedUser
     ]);
